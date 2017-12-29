@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.domain.QpNoticebillEntity" table="qp_noticebill" schema="bos">
+        <id name="id" column="id">
+            <generator class="uuid"></generator>
+        </id>
+        <property name="customerId" column="customer_id"/>
+        <property name="customerName" column="customer_name"/>
+        <property name="delegater" column="delegater"/>
+        <property name="telephone" column="telephone"/>
+        <property name="pickaddress" column="pickaddress"/>
+        <property name="arrivecity" column="arrivecity"/>
+        <property name="product" column="product"/>
+        <property name="pickdate" column="pickdate"/>
+        <property name="num" column="num"/>
+        <property name="weight" column="weight"/>
+        <property name="volume" column="volume"/>
+        <property name="remark" column="remark"/>
+        <property name="ordertype" column="ordertype"/>
+    </class>
+</hibernate-mapping>

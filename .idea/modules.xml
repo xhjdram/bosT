@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bosT.iml" filepath="$PROJECT_DIR$/bosT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bosT/bosdao/bosdao.iml" filepath="$PROJECT_DIR$/../bosT/bosdao/bosdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bosT/bosdomain/bosdomain.iml" filepath="$PROJECT_DIR$/../bosT/bosdomain/bosdomain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bosT/bosservice/bosservice.iml" filepath="$PROJECT_DIR$/../bosT/bosservice/bosservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bosT/bosutils/bosutils.iml" filepath="$PROJECT_DIR$/../bosT/bosutils/bosutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bosT/bosweb/bosweb.iml" filepath="$PROJECT_DIR$/../bosT/bosweb/bosweb.iml" />
+    </modules>
+  </component>
+</project>
