@@ -35,6 +35,7 @@
         <action name="userAction_*" class="userAction" method="{1}">
             <result name="login" type="dispatcher">/login.jsp</result>
             <result name="index" type="redirect">/index.jsp</result>
+            <result name="lsit" type="dispatcher">WEB-INF/pages/admin/userinfo.jsp</result>
         </action>
         <action name="staffAction_*" class="staffAction" method="{1}">
             <result name="list">/WEB-INF/pages/base/staff.jsp</result>
@@ -58,7 +59,7 @@
             <result name="list" >WEB-INF/pages/admin/function.jsp</result>
         </action>
         <action name="roleAction_*" class="roleAction" method="{1}">
-            <result name="list">/WEB-INF/pages/admin/function.jsp</result>
+            <result name="list">/WEB-INF/pages/admin/role.jsp</result>
         </action>
 
     </package>

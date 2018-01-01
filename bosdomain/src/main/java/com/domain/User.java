@@ -1,5 +1,7 @@
 package com.domain;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,6 +17,17 @@ public class User {
 //    remark               varchar(255),
 //    primary key (id)
 
+
+    private String id;
+    private String username;
+    private String password;
+    private Double salary;
+    private Date birthday;
+    private String gender;
+    private String station;
+    private String telephone;
+    private String remark;
+    private Set<Role> set = new HashSet<Role>();
 
     public String getUsername() {
         return username;
@@ -40,11 +53,11 @@ public class User {
         this.salary = salary;
     }
 
-    public String getBirthday() {
+    public Date getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(String birthday) {
+    public void setBirthday(Date birthday) {
         this.birthday = birthday;
     }
 
@@ -79,7 +92,6 @@ public class User {
     public void setRemark(String remark) {
         this.remark = remark;
     }
-private  String id;
 
     public String getId() {
         return id;
@@ -89,15 +101,6 @@ private  String id;
         this.id = id;
     }
 
-    private String username;
-    private String password;
-    private Double salary;
-    private String birthday;
-    private String gender;
-    private String station;
-    private String telephone;
-    private String remark;
-
     public Set<Role> getSet() {
         return set;
     }
@@ -106,6 +109,26 @@ private  String id;
         this.set = set;
     }
 
-    private Set<Role> set=new HashSet<Role>();
+    //把页面需要的所有角色的name属性拼接成字符串用来生成JSON字符串
+    public String getRoleNames() {
+        String roleNames = "";
+        for (Role role : set) {
+            String name = role.getName();
+            roleNames = roleNames + name + " ";
+        }
+        return roleNames;
+    }
 
+    //把时间转换成字符串
+    public String getBirthdayStr() {
+        Date birthday = this.getBirthday();
+        String birthdayStr = "没有数据";
+        //判断是否为空
+        if (birthday != null) {
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            birthdayStr = simpleDateFormat.format(birthday);
+        }
+
+        return birthdayStr;
+    }
 }

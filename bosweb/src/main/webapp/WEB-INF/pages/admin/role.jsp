@@ -47,7 +47,7 @@
 					}
 				}           
 			],
-			url : '',
+			url : 'roleAction_listRole',
 			columns : [[
 				{
 					field : 'id',

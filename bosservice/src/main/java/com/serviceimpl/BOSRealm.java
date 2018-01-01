@@ -1,23 +1,41 @@
 package com.serviceimpl;
 
+import com.FunctionDao;
 import com.UserDao;
+import com.domain.Function;
 import com.domain.User;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.hibernate.criterion.DetachedCriteria;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class BOSRealm extends AuthorizingRealm {
     @Autowired
     UserDao userDao;
+    @Autowired
+    FunctionDao functionDao;
 
     //授权方法
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
+        //获取当前用户
+        User user = (User) principalCollection.getPrimaryPrincipal();
+        List<Function> list =new ArrayList<>();
+        if (user != null && user.getUsername().equals("xuan")) {
+            DetachedCriteria detachedCriteria = DetachedCriteria.forClass(Function.class);
+             list = functionDao.findEntityByDe(detachedCriteria);
+        }else {
+           list=functionDao.findFunctonsByUserId(user.getId());
+        }
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
-   //TODO 以后可以送数据库获取当前user的权限
-        authorizationInfo.addStringPermission("staff-list");
+        for(Function function:list){
+            authorizationInfo.addStringPermission(function.getCode());
+        }
         return authorizationInfo;
     }
 
