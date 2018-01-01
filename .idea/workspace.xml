@@ -9,23 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/User.hbm.xml" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2448b770-135a-407a-83e9-48e1e7181ca0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bosT/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/FunctionDao.java" afterPath="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/FunctionDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosdomain/bosdomain.iml" afterPath="$PROJECT_DIR$/../bosT/bosdomain/bosdomain.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/User.java" afterPath="$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/IRoleService.java" afterPath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/IRoleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/UserService.java" afterPath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/BOSRealm.java" afterPath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/BOSRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/RoleServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/RoleAction.java" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/RoleAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/UserAction.java" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/UserAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/role.jsp" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/role.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/userinfo.jsp" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/userinfo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/userlist.jsp" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/userlist.jsp" />
-    </list>
+    <list default="true" id="2448b770-135a-407a-83e9-48e1e7181ca0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../bosT/out/" />
     <ignored path="$PROJECT_DIR$/../bosT/target/" />
     <ignored path="$PROJECT_DIR$/../bosT/bosdomain/target/" />
@@ -870,7 +854,7 @@
       <workItem from="1514447978891" duration="12300000" />
       <workItem from="1514512261493" duration="16382000" />
       <workItem from="1514541752699" duration="570000" />
-      <workItem from="1514780954550" duration="16034000" />
+      <workItem from="1514780954550" duration="16084000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1514542127242</created>
@@ -886,7 +870,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514542163400</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入了权限管理">
+      <created>1514800500701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514800500701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -922,7 +913,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240713000" />
+    <option name="totallyTimeSpent" value="240763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1014,7 +1005,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
-    <option name="LAST_COMMIT_MESSAGE" value="s" />
+    <MESSAGE value="加入了权限管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入了权限管理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
