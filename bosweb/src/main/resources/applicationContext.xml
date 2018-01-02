@@ -74,6 +74,7 @@
     </bean>
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="bosRealm"></property>
+        <property name="cacheManager" ref="cacheManager"></property>
     </bean>
     <bean id="bosRealm" class="com.serviceimpl.BOSRealm"></bean>
     <bean id="defaultAdvisorAutoProxyCreator"
@@ -83,6 +84,10 @@
     </bean>
     <!-- 配置shiro框架提供的切面类，用于创建代理对象 -->
     <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor"/>
+    <!--配置ehcache-->
+    <bean class="org.apache.shiro.cache.ehcache.EhCacheManager" id="cacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"></property>
+    </bean>
 
     <ws:client id="myClent" serviceClass="com.IBaseDao"
                address="http://localhost:80/crmWebService/service/crm_service"></ws:client>

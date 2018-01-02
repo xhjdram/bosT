@@ -1,11 +1,12 @@
 package com.domain;
 
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-public class User {
+public class User implements Serializable {
 //    id                   varchar(32) not null,
 //    username             varchar(20) not null,
 //    password             varchar(32) not null,
