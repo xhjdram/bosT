@@ -20,4 +20,11 @@ public class FunctionDao extends BaseDaoImpl<Function> {
         List<Function> objects = (List<Function>) this.getHibernateTemplate().find(hql,id);
         return objects;
     }
+
+    public List<Function> generateMenuByUserId(String id) {
+        String hql ="SELECT DISTINCT f FROM Function f JOIN f.roles r JOIN r.users u WHERE u" +
+                ".id=? AND f.generatemenu='1'";
+        List<Function> objects = (List<Function>) this.getHibernateTemplate().find(hql,id);
+        return objects;
+    }
 }

@@ -10,10 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2448b770-135a-407a-83e9-48e1e7181ca0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/resources/ehcache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bosT/.idea/libraries/Maven__javax_mail_mail_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bosT/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_javamail_1_4_spec_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bosT/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bosT/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/MailJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/.idea/artifacts/bosweb_Web_exploded.xml" afterPath="$PROJECT_DIR$/../bosT/.idea/artifacts/bosweb_Web_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bosT/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/User.java" afterPath="$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosT.iml" afterPath="$PROJECT_DIR$/../bosT/bosT.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosdao/bosdao.iml" afterPath="$PROJECT_DIR$/../bosT/bosdao/bosdao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/FunctionDao.java" afterPath="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/FunctionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/WorkBillDao.java" afterPath="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/WorkBillDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosdomain/bosdomain.iml" afterPath="$PROJECT_DIR$/../bosT/bosdomain/bosdomain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosservice/bosservice.iml" afterPath="$PROJECT_DIR$/../bosT/bosservice/bosservice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/FunctionServiceImpl.java" afterPath="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/FunctionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosutils/bosutils.iml" afterPath="$PROJECT_DIR$/../bosT/bosutils/bosutils.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosutils/pom.xml" afterPath="$PROJECT_DIR$/../bosT/bosutils/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/bosweb.iml" afterPath="$PROJECT_DIR$/../bosT/bosweb/bosweb.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/common/index.jsp" afterPath="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/common/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bosT/pom.xml" afterPath="$PROJECT_DIR$/../bosT/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../bosT/out/" />
     <ignored path="$PROJECT_DIR$/../bosT/target/" />
@@ -45,80 +61,97 @@
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
         <item name="@localhost" type="e3449647:DbNodeDescriptor" />
       </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="bos" type="e3449647:DbNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BOSRealm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/BOSRealm.java">
+      <file leaf-file-name="BcDecidedzoneEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/BcDecidedzoneEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="24">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ehcache.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/resources/ehcache.xml">
+      <file leaf-file-name="NoticeBillAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/NoticeBillAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6018">
+            <state relative-caret-position="144">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/RoleAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/StaffAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-426">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/MailJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-552">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/resources/struts.xml">
+      <file leaf-file-name="MethodInvoker.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.4.RELEASE/spring-core-4.2.4.RELEASE-sources.jar!/org/springframework/util/MethodInvoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
+            <state relative-caret-position="5616">
+              <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="MethodInvokingJobDetailFactoryBean.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.4.RELEASE/spring-context-support-4.2.4.RELEASE-sources.jar!/org/springframework/scheduling/quartz/MethodInvokingJobDetailFactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5208">
+              <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+            <state relative-caret-position="463">
+              <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EhCacheManager.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/cache/ehcache/EhCacheManager.class">
+      <file leaf-file-name="WorkBillDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/WorkBillDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#4386#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-853">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,10 +188,14 @@
       <find>#</find>
       <find>备注</find>
       <find>保存</find>
+      <find>c3p0</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../bosT" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -168,12 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/NoticeBillDao.java" />
-        <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/RegionDao.java" />
-        <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/StaffDao.java" />
-        <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/SubareaDao.java" />
-        <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/WorkBillDao.java" />
-        <option value="$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/QpWorkbillEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/NoticeBillServiceImpl.java" />
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/easyui/datagridEdit.jsp" />
         <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/WorkordermanageDao.java" />
@@ -197,7 +228,6 @@
         <option value="$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/Function.hbm.xml" />
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/function.jsp" />
         <option value="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/IFunctionService.java" />
-        <option value="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/FunctionServiceImpl.java" />
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/FunctionAction.java" />
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/function_add.jsp" />
         <option value="$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/Function.java" />
@@ -208,7 +238,6 @@
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/role.jsp" />
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/RoleAction.java" />
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/resources/struts.xml" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar!/org/springframework/aop/support/AopUtils.class" />
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/userinfo.jsp" />
         <option value="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/UserService.java" />
@@ -216,9 +245,17 @@
         <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/UserAction.java" />
         <option value="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/BOSRealm.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2e4e5b15-2b8f-4c4a-95ac-0af805befbda/console.sql" />
-        <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/FunctionDao.java" />
-        <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/User.java" />
+        <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/common/index.jsp" />
+        <option value="$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.7.Final/hibernate-core-5.0.7.Final.jar!/org/hibernate/Criteria.class" />
+        <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/FunctionDao.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar!/org/springframework/aop/support/AopUtils.class" />
+        <option value="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/FunctionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bosT/bosutils/src/main/java/com/MailJob.java" />
+        <option value="$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/WorkBillDao.java" />
+        <option value="$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/MailJob.java" />
+        <option value="$PROJECT_DIR$/../bosT/pom.xml" />
+        <option value="$PROJECT_DIR$/../bosT/bosweb/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -253,17 +290,30 @@
         <option name="mavenHome" value="$USER_HOME$/Desktop/工具/apache-maven-3.3.9" />
         <option name="pluginUpdatePolicy" value="UPDATE" />
         <option name="userSettingsFile" value="C:\Users\dell3020mt-41\Desktop\工具\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bos-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bos-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -271,8 +321,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="93" />
-    <option name="y" value="75" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
     <option name="width" value="1678" />
     <option name="height" value="1008" />
   </component>
@@ -321,106 +371,6 @@
             <path>
               <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
               <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosdomain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosdomain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosdomain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosdomain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosdomain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosdomain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceimpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
               <item name="bosweb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -452,16 +402,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
@@ -471,31 +411,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bosT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosT" type="462c0819:PsiDirectoryNode" />
-              <item name="bosweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2-sources.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
-    <property name="project.structure.side.proportion" value="0.27701148" />
+    <property name="project.structure.side.proportion" value="0.28270814" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="JPA.DatabaseSchemaImportDialog" value="2e4e5b15-2b8f-4c4a-95ac-0af805befbda" />
   </component>
@@ -808,7 +740,10 @@
       <workItem from="1514512261493" duration="16382000" />
       <workItem from="1514541752699" duration="570000" />
       <workItem from="1514780954550" duration="16165000" />
-      <workItem from="1514871397368" duration="2944000" />
+      <workItem from="1514871397368" duration="11571000" />
+      <workItem from="1514897002069" duration="4749000" />
+      <workItem from="1514901938104" duration="408000" />
+      <workItem from="1514967536182" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1514542127242</created>
@@ -845,7 +780,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514800541810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="加入了权限管理 使用ehcache 缓存权限信息">
+      <created>1514876004814</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514876004814</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -881,7 +823,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243788000" />
+    <option name="totallyTimeSpent" value="259532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -897,26 +839,26 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.49200428" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5846325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.49200428" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58370537" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.49307036" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16499442" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1640625" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33779263" sideWeight="0.49701494" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32782516" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66035634" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4008529" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4107143" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3199554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2563966" sideWeight="0.46153846" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23347548" sideWeight="0.53846157" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1716418" sideWeight="0.53846157" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2563966" sideWeight="0.46422628" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25426438" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1716418" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24466951" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48214287" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23134328" sideWeight="0.5070922" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32552955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -974,277 +916,32 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
     <MESSAGE value="加入了权限管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入了权限管理" />
+    <MESSAGE value="加入了权限管理 使用ehcache 缓存权限信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入了权限管理 使用ehcache 缓存权限信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp</url>
-          <line>400</line>
+          <url>file://$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/WorkBillDao.java</url>
+          <line>13</line>
           <properties />
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp</url>
-          <line>298</line>
-          <properties />
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp</url>
-          <line>414</line>
-          <properties />
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp</url>
-          <line>435</line>
-          <properties />
-          <option name="timeStamp" value="97" />
+          <option name="timeStamp" value="178" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="164" />
+      <option name="time" value="179" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="xsd" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/DecidedzoneAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/NoticeBillAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/RegionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/SubareaAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/WorkordermanageAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/Function.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/StaffAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/function.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/StaffServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/IFunctionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/FunctionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/function_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="967">
-          <caret line="78" column="99" lean-forward="false" selection-start-line="78" selection-start-column="99" selection-end-line="78" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/FunctionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/RoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/IRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/role_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/role.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/userindex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/RoleAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/User.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/9a3ca783/2e4e5b15-2b8f-4c4a-95ac-0af805befbda/bos.user_role">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/userinfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="80" column="36" lean-forward="false" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3112">
-          <caret line="1083" column="10" lean-forward="false" selection-start-line="1083" selection-start-column="10" selection-end-line="1083" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/base/staff.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="143" column="30" lean-forward="true" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/admin/userlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="977">
           <caret line="106" column="34" lean-forward="false" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,12 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="65" column="49" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="49" />
-          <folding>
-            <element signature="e#1171#1172#0" expanded="false" />
-            <element signature="e#1203#1204#0" expanded="false" />
-            <element signature="e#1244#1245#0" expanded="false" />
-            <element signature="e#1276#1277#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,21 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="994" column="19" lean-forward="false" selection-start-line="994" selection-start-column="19" selection-end-line="994" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/daoimpl/BaseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="80" column="73" lean-forward="true" selection-start-line="80" selection-start-column="73" selection-end-line="80" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1302,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,17 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/9a3ca783/2e4e5b15-2b8f-4c4a-95ac-0af805befbda/bos.t_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1338,56 +1002,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/9a3ca783/2e4e5b15-2b8f-4c4a-95ac-0af805befbda/bos.auth_function">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/FunctionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/resources/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6018">
+        <state relative-caret-position="-6016">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/cache/ehcache/EhCacheManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#4386#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1395,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,16 +1037,495 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-853">
           <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/common/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/common/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/FunctionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/interceptor/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.7.Final/hibernate-core-5.0.7.Final.jar!/org/hibernate/Criteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/service/IFunctionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/9a3ca783/2e4e5b15-2b8f-4c4a-95ac-0af805befbda/bos.t_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="400" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/daoimpl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/9a3ca783/2e4e5b15-2b8f-4c4a-95ac-0af805befbda/bos.auth_function">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/FunctionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/FunctionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.4.RELEASE/spring-context-support-4.2.4.RELEASE.jar!/org/springframework/scheduling/quartz/MethodInvokingJobDetailFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/NoticeBillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/9a3ca783/2e4e5b15-2b8f-4c4a-95ac-0af805befbda/bos.qp_workbill">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.24/struts2-core-2.3.24.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="160" column="24" lean-forward="false" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.sina:bos-utils:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.sina:bos-utils:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.sina:bos-utils:1.0-SNAPSHOT</node>
+            <node x="" y="">com.sina:bos-domain:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.7.1</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE/org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.7.4</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.freemarker:freemarker:jar:2.3.22</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/ognl:ognl:jar:3.0.6</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="" y="">org.apache.struts:struts2-convention-plugin:jar:2.3.24</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss:jandex:jar:2.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="" y="">log4j:log4j:jar:1.2.12</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.apache.poi:poi:jar:3.11</node>
+            <node x="" y="">org.apache.poi:poi:jar:3.11/commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/xml-resolver:xml-resolver:jar:1.2</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.apache.ws.xmlschema:xmlschema-core:jar:2.1.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-wsdl:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-wsdl:jar:3.0.1/wsdl4j:wsdl4j:jar:1.6.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1/com.sun.xml.bind:jaxb-impl:jar:2.2.10-b140310.1920</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1/com.sun.xml.bind:jaxb-core:jar:2.2.10-b140310.1920</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-xml:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.1/org.apache.neethi:neethi:jar:3.0.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-transports-http:jar:3.0.1</node>
+            <node x="" y="">junit:junit:jar:4.10</node>
+            <node x="" y="">junit:junit:jar:4.10/org.hamcrest:hamcrest-core:jar:1.1</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0/javax.servlet:servlet-api:jar:2.4</node>
+            <node x="" y="">com.belerweb:pinyin4j:jar:2.5.0</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-lang:commons-lang:jar:2.5</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
+            <node x="" y="">c3p0:c3p0:jar:0.9.1.2</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.6</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.6/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2/commons-beanutils:commons-beanutils:jar:1.8.3</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.guava:guava:jar:r09</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject:guice:jar:3.0</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject:guice:jar:3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject.extensions:guice-multibindings:jar:3.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.32</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3</node>
+            <node x="" y="">org.quartz-scheduler:quartz-jobs:jar:2.2.3</node>
+            <node x="" y="">javax.mail:mail:jar:1.4</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2975352112676056" x="1112.0" y="1450.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/bosweb.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/DecidedzoneImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/QpWorkbillEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/struts/struts2-spring-plugin/2.3.24/struts2-spring-plugin-2.3.24.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.sina:bos-parent:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.sina:bos-parent:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.sina:bos-parent:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE/org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.7.4</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.freemarker:freemarker:jar:2.3.22</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/ognl:ognl:jar:3.0.6</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.24/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="" y="">org.apache.struts:struts2-convention-plugin:jar:2.3.24</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss:jandex:jar:2.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="" y="">log4j:log4j:jar:1.2.12</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.apache.poi:poi:jar:3.11</node>
+            <node x="" y="">org.apache.poi:poi:jar:3.11/commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/xml-resolver:xml-resolver:jar:1.2</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.apache.ws.xmlschema:xmlschema-core:jar:2.1.0</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-wsdl:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-wsdl:jar:3.0.1/wsdl4j:wsdl4j:jar:1.6.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1/com.sun.xml.bind:jaxb-impl:jar:2.2.10-b140310.1920</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-soap:jar:3.0.1/org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.0.1/com.sun.xml.bind:jaxb-core:jar:2.2.10-b140310.1920</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-bindings-xml:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-frontend-simple:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.1</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.0.1/org.apache.cxf:cxf-rt-ws-addr:jar:3.0.1/org.apache.cxf:cxf-rt-ws-policy:jar:3.0.1/org.apache.neethi:neethi:jar:3.0.3</node>
+            <node x="" y="">org.apache.cxf:cxf-rt-transports-http:jar:3.0.1</node>
+            <node x="" y="">junit:junit:jar:4.10</node>
+            <node x="" y="">junit:junit:jar:4.10/org.hamcrest:hamcrest-core:jar:1.1</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0/javax.servlet:servlet-api:jar:2.4</node>
+            <node x="" y="">com.belerweb:pinyin4j:jar:2.5.0</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-lang:commons-lang:jar:2.5</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
+            <node x="" y="">c3p0:c3p0:jar:0.9.1.2</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.6</node>
+            <node x="" y="">net.sf.ehcache:ehcache-core:jar:2.6.6/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/org.apache.shiro:shiro-core:jar:1.2.2/commons-beanutils:commons-beanutils:jar:1.8.3</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.guava:guava:jar:r09</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject:guice:jar:3.0</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject:guice:jar:3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.apache.shiro:shiro-all:jar:1.2.2/org.apache.shiro:shiro-guice:jar:1.2.2/com.google.inject.extensions:guice-multibindings:jar:3.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.32</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3/c3p0:c3p0:jar:0.9.1.1</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">org.quartz-scheduler:quartz-jobs:jar:2.2.3</node>
+            <node x="" y="">javax.mail:mail:jar:1.4</node>
+            <node x="" y="">javax.mail:mail:jar:1.4/javax.activation:activation:jar:1.1</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5084522502744236" x="920.0" y="936.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/BOSRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosdao/src/main/java/com/WorkBillDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.4.RELEASE/spring-core-4.2.4.RELEASE-sources.jar!/org/springframework/util/MethodInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5616">
+          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.4.RELEASE/spring-context-support-4.2.4.RELEASE-sources.jar!/org/springframework/scheduling/quartz/MethodInvokingJobDetailFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5208">
+          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/NoticeBillAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/RoleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/java/com/action/StaffAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosdomain/src/main/java/com/domain/BcDecidedzoneEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosservice/src/main/java/com/serviceimpl/MailJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bosT/bosweb/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1438,7 +1551,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27701148" />
+                <option value="0.28270814" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1482,7 +1595,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bosdomain</last-edited>
+          <last-edited>bosweb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

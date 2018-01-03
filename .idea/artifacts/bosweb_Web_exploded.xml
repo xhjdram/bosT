@@ -88,6 +88,11 @@
           <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-multibindings:3.0" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
           <element id="library" level="project" name="Maven: javax.annotation:jsr250-api:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.7.1" />
+          <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.2.3" />
+          <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz-jobs:2.2.3" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
         </element>
       </element>
     </root>
