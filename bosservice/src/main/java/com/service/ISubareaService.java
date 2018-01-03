@@ -14,4 +14,6 @@ public interface ISubareaService {
 
     List<BcSubareaEntity> findSubarea();
     List<BcSubareaEntity> findSubareaByDecidedzoneId(String id);
+
+    List<Object> subareaPicture();
 }

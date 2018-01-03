@@ -124,6 +124,18 @@ public class SubareaAction extends BaseAction<BcSubareaEntity> {
         }
         return null;
     }
+    //分区分布图
+    public String picture(){
+        List<Object> objects = iSubareaService.subareaPicture();
+        String s = JSONArray.fromObject(objects).toString();
+        ServletActionContext.getResponse().setContentType("text/json;charset=utf-8");
+        try {
+            ServletActionContext.getResponse().getWriter().write(s);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
     public Integer getPage() {
         return page;

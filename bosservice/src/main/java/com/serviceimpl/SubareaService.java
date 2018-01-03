@@ -47,4 +47,10 @@ public class SubareaService implements ISubareaService {
         List<BcSubareaEntity> entityByDe = subareaDao.findEntityByDe(detachedCriteria);
         return entityByDe;
     }
+
+    @Override
+    public List<Object> subareaPicture() {
+       List<Object> list= subareaDao.subareaPicture();
+        return list;
+    }
 }

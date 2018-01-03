@@ -26,6 +26,8 @@
     <script
             src="${pageContext.request.contextPath }/js/easyui/locale/easyui-lang-zh_CN.js"
             type="text/javascript"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/highcharts/highcharts.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/highcharts/modules/exporting.js"></script>
     <script type="text/javascript">
         function doAdd() {
             $('#addSubareaWindow').window("open");
@@ -44,11 +46,13 @@
         }
 
         function doExport() {
-          window.location.href="subareaAction_export"
+            window.location.href = "subareaAction_export"
         }
 
         function doImport() {
-            alert("导入");
+            //打开一个窗口用来存放分区分布图
+            $('#SubareaPie').window("open");
+
         }
 
         //工具栏
@@ -74,8 +78,8 @@
             handler: doDelete
         }, {
             id: 'button-import',
-            text: '导入',
-            iconCls: 'icon-redo',
+            text: '分区分布图',
+            iconCls: 'icon-search',
             handler: doImport
 
         }, {
@@ -188,13 +192,23 @@
                 height: 400,
                 resizable: false
             });
+            //分区分布图
+            $('#SubareaPie').window({
+                title: '分区分布图',
+                width: 800,
+                modal: true,
+                shadow: true,
+                closed: true,
+                height: 500,
+                resizable: false
+            });
+
 
         });
 
         function doDblClickRow() {
             alert("双击表格数据...");
         }
-
 
 
         $.fn.serializeJson = function () {
@@ -325,6 +339,52 @@
             </table>
         </form>
     </div>
+</div>
+<%--存放分区分布图的窗口--%>
+<div class="easyui-window" title="分区分布图" id="SubareaPie" collapsible="false" minimizable="false"
+     maximizable="false">
+    <div id="container" ></div>
+    <script type="text/javascript">
+        $(function () {
+            $.get("subareaAction_picture",
+                function (data) {
+                    $('#container').highcharts({
+                        chart: {
+                            plotBackgroundColor: null,
+                            plotBorderWidth: null,
+                            plotShadow: false
+                        },
+                        title: {
+                            text: '分区分布图'
+                        },
+                        tooltip: {
+                            headerFormat: '{series.name}<br>',
+                            pointFormat: '{point.name}: <b>{point.percentage:.1f}%</b>'
+                        },
+                        plotOptions: {
+                            pie: {
+                                allowPointSelect: true,
+                                cursor: 'pointer',
+                                dataLabels: {
+                                    enabled: true,
+                                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                                    style: {
+                                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                                    }
+                                }
+                            }
+                        },
+                        series: [{
+                            type: 'pie',
+                            name: '分区分布图',
+                            data: data
+                        }]
+                    });
+                });
+
+        });
+    </script>
+
 </div>
 </body>
 </html>
